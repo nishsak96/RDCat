@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_image_details"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="275dp"
+        android:layout_height="275dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:onClick="toFullImage"
+        android:id="@+id/imgDet"/>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="Name:"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:textAlignment="textEnd"/>
+
+        <TextView
+            android:layout_width="235dp"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:id="@+id/name"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="ID:"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:textAlignment="textEnd"/>
+
+        <TextView
+            android:layout_width="235dp"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:id="@+id/id"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="Weight:"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:textAlignment="textEnd"/>
+
+        <TextView
+            android:layout_width="235dp"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:id="@+id/wt"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="Purity:"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:textAlignment="textEnd"/>
+
+        <TextView
+            android:layout_width="235dp"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:id="@+id/purity"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
